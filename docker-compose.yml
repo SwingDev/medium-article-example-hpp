@@ -1,0 +1,12 @@
+version: '2'
+services:
+  api:
+    build:
+      context: './api'
+    ports:
+      - 3000:3000
+    links:
+      - "identity_server:iserv"
+  identity_server:
+    build:
+      context: './identity_backend'

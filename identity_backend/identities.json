@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "surname": "Smith",
+    "very_secret_property": "VERY_SECRET_VALUE1"
+  },
+  {
+    "id": 2,
+    "name": "Mark",
+    "surname": "Doe",
+    "very_secret_property": "VERY_SECRET_VALUE2"
+  }
+]
